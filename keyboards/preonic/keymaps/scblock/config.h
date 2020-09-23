@@ -44,3 +44,6 @@
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #define RGBLIGHT_LIMIT_VAL 255
+
+/* Tap Dance Settings */
+#define TAPPING_TERM 200
