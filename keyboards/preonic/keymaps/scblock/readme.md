@@ -10,8 +10,9 @@ This layout makes several quality of life changes for me, including:
 - The default Enter key at the Right Shift location pulls double duty as right shift when held using ``KC_SFTENT``.
 - A new layer is added to manage both LED lighting controls (pre-soldered to the board in this Drop) to the left side of the board and add a 10-key data entry pad to the right side.
 - The keyboard does not have backlighting, and so the BRITE key as defined in the default Preonic layout does not seem to be of use. This layout revises the bottom left key to turn on or toggle on the new LED control and 10-key data entry layer.
+- Uses a tap dance command to activate Caps Lock on double tap of left shift. Not used often, but useful in programming. The macro ``#define SH_CAPS TD(TD_SHIFT_CAPS)`` is used to simplify layout codes.
 
-This is still very much a work in progress as I get used to the small form factor board. I'm considering revising arrow keys to use Vim bindings, but have not done that yet as I would need to find new locations for the -=[]_+{} symbols. I'm reviewing other keymaps and considering ideas, but will take it slow. Caps Lock may return, as I occasionally find use for it.
+This is still very much a work in progress as I get used to the small form factor board. I'm considering revising arrow keys to use Vim bindings, but have not done that yet as I would need to find new locations for the -=[]_+{} symbols. I'm reviewing other keymaps and considering ideas, but will take it slow.
 
 
 ## Layers
