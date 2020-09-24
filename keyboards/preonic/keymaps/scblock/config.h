@@ -37,7 +37,7 @@
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
 /* Reduce number of taps to toggle layer */
-#define TAPPING_TOGGLE 2
+#define TAPPING_TOGGLE 3
 
 /* Adjust RGB LED light parameters */
 #define RGBLIGHT_HUE_STEP 5
